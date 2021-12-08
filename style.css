@@ -11,10 +11,12 @@
     display: flex;
     /* align-items: center; */
     /* font-size: 4rem; */
+    background: black;
+    color: green;
 }
 
-#text1{
-    position: absolute;
-    top: -50%;
+div p{
+    position: absolute; 
+    /* top: -20rem */
 }
 
