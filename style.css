@@ -8,15 +8,12 @@
     box-sizing: border-box;
     overflow: hidden;
     font-family: 'Lora', serif;
-
 }
 
 #app{
     height: 100vh;
     width: 100vw;
     display: flex;
-    /* align-items: center; */
-    /* font-size: 4rem; */
     background: black;
     color: green;
 }
@@ -30,21 +27,10 @@ div{
 
 }
 
-/* div p{
-    position: absolute; 
-    display: flex;
-
-} */
-
 .lastLetter{
     color: white;
     opacity: .5;
     text-shadow: 0px -7px 10px #868686;
-}
-div{
-    color: #008000;
-    /* text-shadow: 0px -7px 6px #008600; */
-
 }
 
 #wakeUp{
@@ -57,22 +43,79 @@ div{
     /* background: rebeccapurple; */
     top: 0;
     color:  #008F11;
-    text-shadow: 0px 0px 10px #00DB00;
+    text-shadow: 0px 0px 8px #00DB00;
     font-size: 5rem;
     text-align: center;
-
- 
 }
 
-#wake1, #wake2, #wake3, #wake4, #wake5, #wake6, #wake7, #wake8, #wake9, #wake10, #wake11, #wake12, #wake13, #wake14, #wake15, #wake16, #wake17, #wake18 {
+#wake1, #wake2, #wake3, #wake4, #wake5, #wake6, #wake7, #wake8, #wake9, #wake10, #wake11, #wake12, #wake13, 
+#wake14, #wake15, #wake16, #wake17, #wake18, #wake19, #wake20, #wake21, #wake22, #wake23, #wake24, #wake25, 
+#wake26, #wake27, #wake28, #wake29, #wake30, #wake31, #wake32, #wake33, #wake34, #wake35, #wake35, #wake36, 
+#wake37, #wake38, #wake39, #wake40, #wake41, #wake42, #wake43, #wake44, #wake45, #wake46, #wake47, #wake48, 
+#wake49, #wake50, #wake51, #wake52, #wake53, #wake54, #wake55, #wake56, #wake57, #wake58, #wake59, #wake60,
+#wake61, #wake62, #wake63, #wake64, #wake65, #wake66, #wake67, #wake68
+{
     display: none;
 }  
-#wake3, #wake9, #wake12, #wake15, #wake16, #wake17, #wake18{
+
+/* Add spacing to end of intro words */
+#wake3, #wake9, #wake12, #wake15, #wake16, #wake17, #wake18, #wake22, #wake25, #wake28, #wake29, #wake30, #wake31, #wake37, #wake40, #wake45, #wake51, #wake57, #wake58, #wake63, #wake64, #wake67,#wake68{
     padding-right: 2rem;
+}
+
+/* Wake */
+#wake19{
+    margin-left: 8rem;
+}
+/* Knock */
+#wake53{
+    margin-left: 10rem;
+}
+/* Follow : The */
+#wake32{
+    margin-left: 3rem;
+}
+
+#wake25{
+    margin-left: 1rem;
 }
 
 #introSentence{
     position: absolute;
     display: flex;
-    width: 60vw;
+    width: 65vw;
+    z-index: 10;
+}
+
+@media (max-width: 1000px) {
+    body{ 
+        position: fixed;
+    }
+    #wakeUp{
+        font-size: 1.5rem;
+    }
+    #introSentence{
+        position: relative;
+        z-index: 10;
+        color: white;
+        width: 90vw;
+        padding-left: 2rem;
+    }
+    #wake19{
+        margin-left: 1rem;
+    }
+    #wake3, #wake9, #wake12, #wake15, #wake16, #wake17, #wake18, #wake22, #wake25, #wake28, #wake29, #wake30, #wake31, #wake37, #wake40, #wake45, #wake51, #wake57, #wake58, #wake63, #wake64, #wake67,#wake68{
+        padding-right: .5rem;
+    }
+    #wake53{
+        margin-left: 0rem;
+    }
+    /* Follow : The */
+    #wake32{
+        margin-left: 0;
+    }
+    
+    #wake25{
+        margin-left: 0rem;
+    }
 }
