@@ -1,8 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     overflow: hidden;
+    font-family: 'Lora', serif;
+
 }
 
 #app{
@@ -15,8 +21,43 @@
     color: green;
 }
 
+div{
+    color: green;
+
+}
+
+.introText{
+
+}
+
 div p{
     position: absolute; 
+    display: flex;
     /* top: -20rem */
+}
+
+#wakeUp{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* background: rebeccapurple; */
+    top: 0;
+    color:  #008F11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    opacity: 0;
+}
+
+.lastLetter{
+    color: white;
+    opacity: .5;
+    text-shadow: 0px -7px 10px #868686;
+}
+div{
+    color: #008000;
+    /* text-shadow: 0px -7px 6px #008600; */
+
 }
 
