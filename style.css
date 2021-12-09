@@ -87,6 +87,10 @@ div{
     z-index: 10;
 }
 
+.stringCollection{
+    margin-top: -20rem ;
+}
+
 @media (max-width: 1000px) {
     body{ 
         position: fixed;
