@@ -38,7 +38,7 @@ function randomChar() {
                 oneRandomChar = Math.floor(Math.random() * (max - min) + min);
                 randomStr += allArray[Math.floor(Math.random()*allArray.length)] + '<br />';
             }
-            appBody.innerHTML += '<div id='+counter+'>'+randomStr+'<span class="lastLetter">'+symbols[oneRandomChar]+'</span></div>'
+            appBody.innerHTML += '<div class="stringCollection" id='+counter+'>'+randomStr+'<span class="lastLetter">'+symbols[oneRandomChar]+'</span></div>'
 
             counter += 1
             randomStr= ''
@@ -103,7 +103,7 @@ function animate(){
 //     for (let x = 0; x < 200; x ++){
 //         randomIntroStr += allArray[Math.floor(Math.random()*allArray.length)] ;
 //     }
-//     appBody.innerHTML += '<div id='+introCounter+'>'+randomIntroStr+'</div>'
+//     appBody.innerHTML += '<div id='+introCounter+'>'+randomIntroSsr+'</div>'
 //     introCounter += 1
 
 //     randomIntroStr= ''
@@ -113,11 +113,40 @@ function animate(){
 // document.getElementById('#wakeUp').innerHTML = ''
 
 
-gsap.to('#wakeUp', {delay: 0, duration: 2.5, opacity: .8})
-gsap.to('#wakeUp', {delay: 8, duration: 2.5, opacity: 0})
+
+gsap.to('#wakeUpNeo', {delay: 5, duration: 0, opacity: 0})
 randomChar()
 
+var tli = gsap.timeline({});
+// The
+tli.to('#wake1', {delay: 5.1, duration: 0, display: 'block'})
+tli.to('#wake2', {delay: .1, duration: 0, display: 'block'})
+tli.to('#wake3', {delay: .2, duration: 0, display: 'block'})
+
+// Matrix
+tli.to('#wake4', {delay: .2, duration: 0, display: 'block'})
+tli.to('#wake5', {delay: .2, duration: 0, display: 'block'})
+tli.to('#wake6', {delay: .3, duration: 0, display: 'block'})
+tli.to('#wake7', {delay: .3, duration: 0, display: 'block'})
+tli.to('#wake8', {delay: .2, duration: 0, display: 'block'})
+tli.to('#wake9', {delay: .3, duration: 0, display: 'block'})
+
+// has
+tli.to('#wake10', {delay: .4, duration: 0, display: 'block'})
+tli.to('#wake11', {delay: .2, duration: 0, display: 'block'})
+tli.to('#wake12', {delay: .3, duration: 0, display: 'block'})
+
+// you
+tli.to('#wake13', {delay: .4, duration: 0, display: 'block'})
+tli.to('#wake14', {delay: .3, duration: 0, display: 'block'})
+tli.to('#wake15', {delay: .3, duration: 0, display: 'block'})
+
+// ...
+tli.to('#wake16', {delay: .3, duration: 0, display: 'block'})
+tli.to('#wake17', {delay: .3, duration: 0, display: 'block'})
+tli.to('#wake18', {delay: .3, duration: 0, display: 'block'})
 
 
+// let child = document.querySelectorAll('.stringCollection')
 
 

@@ -30,25 +30,11 @@ div{
 
 }
 
-div p{
+/* div p{
     position: absolute; 
     display: flex;
-    /* top: -20rem */
-}
 
-#wakeUp{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    /* background: rebeccapurple; */
-    top: 0;
-    color:  #008F11;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    opacity: 0;
-}
+} */
 
 .lastLetter{
     color: white;
@@ -61,3 +47,32 @@ div{
 
 }
 
+#wakeUp{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* background: rebeccapurple; */
+    top: 0;
+    color:  #008F11;
+    text-shadow: 0px 0px 10px #00DB00;
+    font-size: 5rem;
+    text-align: center;
+
+ 
+}
+
+#wake1, #wake2, #wake3, #wake4, #wake5, #wake6, #wake7, #wake8, #wake9, #wake10, #wake11, #wake12, #wake13, #wake14, #wake15, #wake16, #wake17, #wake18 {
+    display: none;
+}  
+#wake3, #wake9, #wake12, #wake15, #wake16, #wake17, #wake18{
+    padding-right: 2rem;
+}
+
+#introSentence{
+    position: absolute;
+    display: flex;
+    width: 60vw;
+}
