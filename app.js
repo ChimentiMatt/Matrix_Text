@@ -94,24 +94,6 @@ function animate(){
     tl.to(idName, {delay: randomDelay, y: '210vh', duration: randomDuration, opacity: opNum, ease: 'none'})
 }
 
-// let introCounter = 0
-// let introId = 0
-// let randomIntroStr = ''
-
-// function makeIntro () {
-//     // makes a random string of characters
-//     for (let x = 0; x < 200; x ++){
-//         randomIntroStr += allArray[Math.floor(Math.random()*allArray.length)] ;
-//     }
-//     appBody.innerHTML += '<div id='+introCounter+'>'+randomIntroSsr+'</div>'
-//     introCounter += 1
-
-//     randomIntroStr= ''
-// }
-
-
-// document.getElementById('#wakeUp').innerHTML = ''
-
 
 let backgroundCount = 1
 
