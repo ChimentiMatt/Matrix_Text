@@ -91,7 +91,7 @@ function animate(){
     var tl = gsap.timeline({repeat: -1});
     
     tl.to(idName, {delay: 0, fontSize: closeness, duration: 0, x: randomHorizontal+'vw'})
-    tl.to(idName, {delay: randomDelay, y: '210vh', duration: randomDuration, opacity: opNum, ease: 'none'})
+    tl.to(idName, {delay: randomDelay, y: '250vh', duration: randomDuration, opacity: opNum, ease: 'none'})
 }
 
 
