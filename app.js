@@ -81,7 +81,7 @@ function randomChar() {
      
             idName = document.getElementById(i)
             idName.style.position = 'absolute'
-            idName.style.top = '-20rem'
+            idName.style.top = '-25rem'
             animate()    
         }
 }
