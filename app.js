@@ -29,7 +29,7 @@ for (let i = 0; i < allChars.length; i++){
 // Add random string to HTML Body
 function randomChar() {
  
-        for (let i = 0; i < 350; i ++){
+        for (let i = 0; i < 300; i ++){
             // console.log(counter)
             
 
@@ -43,7 +43,7 @@ function randomChar() {
             counter += 1
             randomStr= ''
         }
-        for (let i = 0; i < 350; i++){
+        for (let i = 0; i < 300; i++){
             min = Math.ceil(-5);
             max = Math.floor(110);
             randomHorizontal = Math.random() * (110 + -5) + -5;
@@ -81,7 +81,7 @@ function randomChar() {
      
             idName = document.getElementById(i)
             idName.style.position = 'absolute'
-            idName.style.top = '-65vh'
+            idName.style.top = '-20rem'
             animate()    
         }
 }
