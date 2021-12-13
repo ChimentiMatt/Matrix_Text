@@ -124,5 +124,7 @@ div{
     }
     .stringCollection{
         margin-top: -65vh ;
+
+        justify-content: center;
     }
 }
